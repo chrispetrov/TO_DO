@@ -1,2 +1,7 @@
 var x='hello to do list'
-var h1=document.getElementsByClassName("2d")
+var h1=document.getElementById("2d")
+
+function addText(){
+    console.log("works")
+    h1.innerText=x;
+}
